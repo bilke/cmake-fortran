@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 2.8.8)
 project(fortran)
-enable_language(fortran)
+enable_language(Fortran)
 
 
 
-add_executable(fortran fortran_base.f90)
+add_library(fortran fortran_base.f90)
